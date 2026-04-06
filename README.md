@@ -17,3 +17,4 @@ A secure, open-source tool for IronClaw users to update their WordPress sites vi
    tool_install name=ironclaw-wordpress-assistant
    tool_auth name=wordpress
 
+create_job title="Update Post" description="Add new event" credentials='{"wordpress_api_key": "wordpress"}' mode="worker"
